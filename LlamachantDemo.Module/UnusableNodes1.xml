@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="DevExpress.Persistent.BaseImpl.PhoneNumber">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Party" GetDisplayFormatIsExecuted="True" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LlamachantDemo.Module.BusinessObjects.Contacts">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Company" GetDisplayFormatIsExecuted="True" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Views Id="Views">
+    <DetailView Id="Contacts_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="PhoneNumbers_Group" Direction="Vertical" RelativeSize="33.333333333333336">
+            <LayoutItem Id="PhoneNumbers" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Person" RelativeSize="28.25">
+              <LayoutGroup Id="Person_col1" RelativeSize="50">
+                <LayoutItem Id="FirstName" RelativeSize="36.36363636363637" />
+                <LayoutItem Id="LastName" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="MiddleName" RelativeSize="36.36363636363637" />
+              </LayoutGroup>
+              <LayoutGroup Id="Person_col2" RelativeSize="50">
+                <LayoutItem Id="Birthday" RelativeSize="36.36363636363637" />
+                <LayoutItem Id="FullName" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="Email" RelativeSize="36.36363636363637" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Party" RelativeSize="21">
+              <LayoutItem Id="Address1" RelativeSize="35.714285714285715" Index="0" />
+              <LayoutItem Id="Address2" RelativeSize="28.571428571428573" Index="1" />
+              <LayoutItem Id="DisplayName" RelativeSize="35.714285714285715" Index="2" />
+              <LayoutItem Id="Photo" ShowCaption="False" RelativeSize="27.77777777777778" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Contacts_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Contacts">
+              <LayoutItem Id="Company" ViewItem="Company" Index="1" RelativeSize="13.40782122905028" Removed="True" />
+              <LayoutItem Id="Photo" ShowCaption="True" RelativeSize="78.83333333333333" Index="1" Removed="True" />
+              <LayoutItem Id="LastName" Removed="True" />
+              <LayoutItem Id="Name" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
